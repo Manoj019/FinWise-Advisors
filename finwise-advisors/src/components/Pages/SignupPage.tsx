@@ -1,4 +1,4 @@
-import React, { useState, ChangeEvent, FormEvent } from 'react';
+import  { useState, ChangeEvent, FormEvent } from 'react';
 
 type FormData = {
   fullname: string;
@@ -9,7 +9,7 @@ type FormData = {
 
 type Errors = Partial<FormData>;
 
-export default function RegisterForm() {
+export default function SignupPage() {
   const [formData, setFormData] = useState<FormData>({
     fullname: '',
     email: '',
@@ -87,6 +87,7 @@ export default function RegisterForm() {
           <input
             type="password"
             name="confirmpassword"
+            autoComplete="new-password"
             value={formData.confirmpassword}
             onChange={handleChange}
             className="w-full p-2 border rounded-xl focus:outline-none focus:ring-2 focus:ring-blue-400"
