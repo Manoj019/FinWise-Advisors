@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
+
 import { Menu, X, BarChart2 } from 'lucide-react';
 
 const Navbar: React.FC = () => {
@@ -29,7 +30,7 @@ const Navbar: React.FC = () => {
             ))}
             <button
               className="bg-blue-900 text-white px-4 py-2 rounded-md hover:bg-blue-800 transition-colors"
-              onClick={() => navigate("/register")}
+              onClick={() => navigate("/signup")}
             >
               Get Started
             </button>
@@ -61,7 +62,7 @@ const Navbar: React.FC = () => {
               className="w-full bg-blue-900 text-white px-4 py-3 rounded-md hover:bg-blue-800 transition-colors"
               onClick={() => {
                 setIsOpen(false);
-                navigate("/register");
+                navigate("/signup");
               }}
             >
               Get Started
