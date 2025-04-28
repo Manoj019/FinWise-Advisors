@@ -5,12 +5,11 @@
 
 
 
-[Live Demo 🚀][(https://your-deployed-app-link.com](https://finwise-advisors-production.up.railway.app/))
+Live Demo 🚀[(https://your-deployed-app-link.com](https://finwise-advisors-production.up.railway.app/))
 
-- [Project Overview](🚀 Check out my latest project!
+- Project Overview (🚀 Check out my latest project!
 I’ve created a simple financial website using React, which provides a clear and user-friendly overview of financial concepts. It's designed to help users easily understand basic financial information.
 Hosted and containerized with Docker on Railway.)
-- [Features](#-features)
-- [Tech Stack](Html5,Css3,Tailwind,reactjs,Typescript,Nodejs)
-- [Installation](bash.. => git clone https://github.com/your-username/FineWiseAdvisor.git => cd FineWiseAdvisor => docker-compose up --build => http://localhost:3000  # or appropriate port)
-- [Roadmap](Frontend => Backend => Docker => Deployment)
+- Tech Stack (Html5,Css3,Tailwind,reactjs,Typescript,Nodejs)
+- Installation (bash.. => git clone https://github.com/your-username/FineWiseAdvisor.git => cd FineWiseAdvisor => docker-compose up --build => http://localhost:3000  # or appropriate port)
+- Roadmap (Frontend => Backend => Docker => Deployment)
